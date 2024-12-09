@@ -4,8 +4,7 @@ import random
 import json
 import time
 
-API_KEY = ''    # Add API key
-OUTPUT_FILE = 'content.json'
+API_KEY = ''  # Add personal API key
 
 def zero_shot(model, dataset):
     replies = {}
